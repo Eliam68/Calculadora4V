@@ -38,9 +38,20 @@ public class Main {
 		        } while (opciones != 6);
 		        leer.close();
 		    }
+	
+	// Método para realizar la suma
+	private static void realizarSuma(Scanner leer) {
+        System.out.println();
+        System.out.println("\tSUMA\n");
+        System.out.print("Ingresa el primer número: ");
+        int num1 = Integer.parseInt(leer.nextLine());
+        System.out.print("Ingresa el segundo número: ");
+        int num2 = Integer.parseInt(leer.nextLine());
+
+        System.out.println("\nEl resultado de la SUMA es: " + (num1 + num2));
+    }
 
 
 
 }
-}
-}
+
