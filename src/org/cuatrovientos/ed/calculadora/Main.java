@@ -77,6 +77,20 @@ public class Main {
 
 	    System.out.println("\nEl resultado de la MULTIPLICACIÓN es: " + (num1 * num2));
 	}
+	// Método para realizar la división
+	private static void realizarDivision(Scanner leer) {
+	    System.out.println();
+	    System.out.println("\tDIVISIÓN\n");
+	    System.out.print("Ingresa el primer número: ");
+	    double num1 = Double.parseDouble(leer.nextLine());
+	    double num2;
+	    do {
+	        System.out.print("Ingresa el segundo número: ");
+	        num2 = Double.parseDouble(leer.nextLine());
+	    } while (num2 == 0);
+
+	    System.out.println("\nEl resultado de la DIVISIÓN es: " + (num1 / num2));
+	}
 
 
 }
