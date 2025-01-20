@@ -50,6 +50,21 @@ public class Main {
 
         System.out.println("\nEl resultado de la SUMA es: " + (num1 + num2));
     }
+	// Método para realizar la resta
+	private static void realizarResta(Scanner leer) {
+	    System.out.println();
+	    System.out.println("\tRESTA\n");
+	    System.out.print("Ingresa el primer número: ");
+	    int num1 = Integer.parseInt(leer.nextLine());
+	    System.out.print("Ingresa el segundo número: ");
+	    int num2 = Integer.parseInt(leer.nextLine());
+
+	    System.out.println("Primer número (num1): " + num1);
+	    System.out.println("Segundo número (num2): " + num2);
+
+	    int resultado = num1 - num2;
+	    System.out.println("\nEl resultado de la RESTA es: " + resultado);
+	}
 
 
 
