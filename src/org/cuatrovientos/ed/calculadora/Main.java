@@ -28,13 +28,14 @@ public class Main {
 
 		         // Ejecutar la operación seleccionada
 		            switch (opciones) {
-		                case 1 -> //todo hacer métodos;
-		                case 2 -> //todo hacer métodos;
-		                case 3 -> //todo hacer métodos;
-		                case 4 -> //todo hacer métodos;
-		                case 5 -> //todo hacer comentario de ayuda
-		                case 6 -> System.out.println("Saliendo...");
-		            }
+					case 1 -> realizarSuma(leer);
+					case 2 -> realizarResta(leer);
+					case 3 -> realizarMultiplicacion(leer);
+					case 4 -> realizarDivision(leer);
+					case 5 -> System.out.println(
+							"Este programa puede hacer las funciones que aparecen en el menú. \n No se puede ingresar nada más que números, y el menú funciona con los números para seleccionar la operación a relizar. \n  Si necesitas más ayuda, o hay algo que no funcione reportalo al centro de ayuda. (cuatrovientosayuda@correo.cv)");
+					case 6 -> System.out.println("Saliendo...");
+					}
 		        } while (opciones != 6);
 		        leer.close();
 		    }
