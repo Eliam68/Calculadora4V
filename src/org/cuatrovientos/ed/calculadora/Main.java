@@ -63,7 +63,7 @@ public class Main {
     }
 
     // Método para realizar la resta
- // FIXME: La resta no funciona correctamente
+
     private static void realizarResta(Scanner leer) {
         System.out.println();
         System.out.println("\tRESTA\n");
@@ -75,7 +75,7 @@ public class Main {
         System.out.println("Primer número (num1): " + num1);
         System.out.println("Segundo número (num2): " + num2);
 
-        int resultado = num2 - num1;
+        int resultado = num1 - num2;
         System.out.println("\nEl resultado de la RESTA es: " + resultado);
     }
 
